@@ -19,8 +19,8 @@ attr_accessor :name, :roster
       return @roster[num]
    end
 
-   def sort 
+   def sort
      return @roster.sort_by{|key, val| val}
-   end 
+   end
 
 end
